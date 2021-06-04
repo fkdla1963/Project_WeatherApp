@@ -1,11 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\01204026064e05b0a490539592280b6a\material-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\52e9ebe20575f9bcaf9bc070df97483d\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c26458f5404aac5edefb0a2f39e0f572\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\f4d7c3ac875a41b9f914216b8851034e\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.koushikdutta.ion:ion:3.1.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\e58c2adb3015eba8cf03e2780956ef1f\ion-3.1.0\AndroidManifest.xml:2:1-16:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\a91b305dfe852588028861c2103f6d69\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -47,25 +47,25 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\7935c2974499cbda1790e169de59e1cf\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\8754d27d014beb2aa2a8143168bdcf2b\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.koushikdutta.async:androidasync:3.1.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\fbc91a3bae636d187fe0c680ff0b4048\androidasync-3.1.0\AndroidManifest.xml:2:1-16:12
-INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:5:5-83
+ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.koushikdutta.ion:ion:3.1.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\e58c2adb3015eba8cf03e2780956ef1f\ion-3.1.0\AndroidManifest.xml:11:5-67
 MERGED from [com.koushikdutta.ion:ion:3.1.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\e58c2adb3015eba8cf03e2780956ef1f\ion-3.1.0\AndroidManifest.xml:11:5-67
 MERGED from [com.koushikdutta.async:androidasync:3.1.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\fbc91a3bae636d187fe0c680ff0b4048\androidasync-3.1.0\AndroidManifest.xml:11:5-67
@@ -73,15 +73,15 @@ MERGED from [com.koushikdutta.async:androidasync:3.1.0] C:\Users\pkh23\.gradle\c
 	android:name
 		ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:6:5-95
+ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
 		ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:8:5-22:15
+ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:8:5-23:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\01204026064e05b0a490539592280b6a\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\01204026064e05b0a490539592280b6a\material-1.3.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\52e9ebe20575f9bcaf9bc070df97483d\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\52e9ebe20575f9bcaf9bc070df97483d\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c26458f5404aac5edefb0a2f39e0f572\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c26458f5404aac5edefb0a2f39e0f572\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [com.koushikdutta.ion:ion:3.1.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\e58c2adb3015eba8cf03e2780956ef1f\ion-3.1.0\AndroidManifest.xml:13:5-14:19
 MERGED from [com.koushikdutta.ion:ion:3.1.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\e58c2adb3015eba8cf03e2780956ef1f\ion-3.1.0\AndroidManifest.xml:13:5-14:19
 MERGED from [androidx.core:core:1.5.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\b68aee3bfb28c3ab5a72e174b9304648\core-1.5.0\AndroidManifest.xml:24:5-89
@@ -105,27 +105,31 @@ MERGED from [com.koushikdutta.async:androidasync:3.1.0] C:\Users\pkh23\.gradle\c
 	android:theme
 		ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:14:9-49
 activity#com.kr.weathertest.MainActivity2
-ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:15:5-21:16
+ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:15:9-60
 	android:name
-		ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:15:15-44
+		ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:15:19-48
+activity#com.kr.weathertest.MainActivity
+ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:16:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:16:9-20:25
+ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:17:13-65
+ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:17:21-62
+		ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:19:13-73
+ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:19:23-70
+		ADDED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\01204026064e05b0a490539592280b6a\material-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\01204026064e05b0a490539592280b6a\material-1.3.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\52e9ebe20575f9bcaf9bc070df97483d\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\52e9ebe20575f9bcaf9bc070df97483d\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c26458f5404aac5edefb0a2f39e0f572\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c26458f5404aac5edefb0a2f39e0f572\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\f4d7c3ac875a41b9f914216b8851034e\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\f4d7c3ac875a41b9f914216b8851034e\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.koushikdutta.ion:ion:3.1.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\e58c2adb3015eba8cf03e2780956ef1f\ion-3.1.0\AndroidManifest.xml:7:5-9:41

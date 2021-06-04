@@ -11,14 +11,14 @@
 9-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:5:5-83
+11-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:5:5-67
 11-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-12-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:6:5-95
+12-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:6:5-79
 12-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:6:22-76
 13
 14    <application
-14-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:8:5-22:15
+14-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:8:5-23:19
 15        android:allowBackup="true"
 15-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -33,21 +33,23 @@
 21-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:12:9-54
 22        android:supportsRtl="true"
 22-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:13:9-35
-23        android:testOnly="true"
-24        android:theme="@style/Theme.Weathertest" >
-24-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:14:9-49
-25        <activity android:name="com.kr.weathertest.MainActivity2" >
-25-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:15:5-21:16
-25-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:15:15-44
+23        android:theme="@style/Theme.Weathertest" >
+23-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:14:9-49
+24        <activity android:name="com.kr.weathertest.MainActivity2" />
+24-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:15:9-60
+24-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:15:19-48
+25        <activity android:name="com.kr.weathertest.MainActivity" >
+25-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:16:9-22:20
+25-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:16:19-47
 26            <intent-filter>
-26-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:16:9-20:25
+26-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:17:13-21:29
 27                <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:17:13-65
-27-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:17:21-62
+27-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:18:17-69
+27-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:18:25-66
 28
 29                <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:19:13-73
-29-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:19:23-70
+29-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:20:17-77
+29-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:20:27-74
 30            </intent-filter>
 31        </activity>
 32    </application>
