@@ -1,6 +1,7 @@
 com/kr/weathertest/MainActivity.java
  com.kr.weathertest.MainActivity
  com.kr.weathertest.MainActivity$1
+ com.kr.weathertest.MainActivity$2
 com/kr/weathertest/MainActivity2.java
  com.kr.weathertest.MainActivity2
  com.kr.weathertest.MainActivity2$1
@@ -10,8 +11,11 @@ com/kr/weathertest/Weather.java
  com.kr.weathertest.Weather
 com/kr/weathertest/DailyWeatherAdapter.java
  com.kr.weathertest.DailyWeatherAdapter
-com/kr/weathertest/BuildConfig.java
- com.kr.weathertest.BuildConfig
 com/kr/weathertest/MainActivity_test.java
  com.kr.weathertest.MainActivity_test
- com.kr.weathertest.MainActivity_test$1
+com/kr/weathertest/DataList.java
+ com.kr.weathertest.DataList
+com/kr/weathertest/ItemList.java
+ com.kr.weathertest.ItemList
+com/kr/weathertest/BuildConfig.java
+ com.kr.weathertest.BuildConfig
