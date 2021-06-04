@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(android.view.View v) {
-                Intent intent = new Intent(MainActivity.this , MainActivity_test.class);
+                Intent intent = new Intent(MainActivity.this , MapsActivity.class);
                 startActivity(intent);
             }
         });

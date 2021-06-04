@@ -1,7 +1,17 @@
-com/kr/weathertest/MainActivity.java
- com.kr.weathertest.MainActivity
- com.kr.weathertest.MainActivity$1
- com.kr.weathertest.MainActivity$2
+com/kr/weathertest/ItemList.java
+ com.kr.weathertest.ItemList
+com/kr/weathertest/databinding/ItemWeatherBinding.java
+ com.kr.weathertest.databinding.ItemWeatherBinding
+com/kr/weathertest/databinding/ActivityMainTestBinding.java
+ com.kr.weathertest.databinding.ActivityMainTestBinding
+com/kr/weathertest/databinding/ActivityMain2Binding.java
+ com.kr.weathertest.databinding.ActivityMain2Binding
+com/kr/weathertest/databinding/ActivityMapsBinding.java
+ com.kr.weathertest.databinding.ActivityMapsBinding
+com/kr/weathertest/databinding/ActivityMainBinding.java
+ com.kr.weathertest.databinding.ActivityMainBinding
+com/kr/weathertest/BuildConfig.java
+ com.kr.weathertest.BuildConfig
 com/kr/weathertest/MainActivity2.java
  com.kr.weathertest.MainActivity2
  com.kr.weathertest.MainActivity2$1
@@ -15,7 +25,10 @@ com/kr/weathertest/MainActivity_test.java
  com.kr.weathertest.MainActivity_test
 com/kr/weathertest/DataList.java
  com.kr.weathertest.DataList
-com/kr/weathertest/ItemList.java
- com.kr.weathertest.ItemList
-com/kr/weathertest/BuildConfig.java
- com.kr.weathertest.BuildConfig
+com/kr/weathertest/MainActivity.java
+ com.kr.weathertest.MainActivity
+ com.kr.weathertest.MainActivity$1
+ com.kr.weathertest.MainActivity$2
+com/kr/weathertest/MapsActivity.java
+ com.kr.weathertest.MapsActivity
+ com.kr.weathertest.MapsActivity$1
