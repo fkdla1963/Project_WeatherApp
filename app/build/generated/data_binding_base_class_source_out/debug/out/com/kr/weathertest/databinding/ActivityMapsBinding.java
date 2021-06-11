@@ -4,7 +4,7 @@ package com.kr.weathertest.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.RelativeLayout;
+import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -14,15 +14,15 @@ import java.lang.Override;
 
 public final class ActivityMapsBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final FrameLayout rootView;
 
-  private ActivityMapsBinding(@NonNull RelativeLayout rootView) {
+  private ActivityMapsBinding(@NonNull FrameLayout rootView) {
     this.rootView = rootView;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public FrameLayout getRoot() {
     return rootView;
   }
 
@@ -47,6 +47,6 @@ public final class ActivityMapsBinding implements ViewBinding {
       throw new NullPointerException("rootView");
     }
 
-    return new ActivityMapsBinding((RelativeLayout) rootView);
+    return new ActivityMapsBinding((FrameLayout) rootView);
   }
 }
