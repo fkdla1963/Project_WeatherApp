@@ -8,6 +8,7 @@ import android.Manifest;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -77,6 +78,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             // to handle the case where the user grants the permission. See the documentation
             // for ActivityCompat#requestPermissions for more details.
             ActivityCompat.requestPermissions(this, new String[] {Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION},REQUEST_CODE);
+
             return;
         }
         mfusedLocation.getLastLocation().addOnSuccessListener(this, new OnSuccessListener<Location>() {
@@ -84,6 +86,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             public void onSuccess(Location location) {
                 if (location != null){
                     LatLng myLocation = new LatLng(location.getLatitude(), location.getLongitude());
+                    double a = location.getLatitude();
+                    double b = location.getLongitude();
+                    System.out.println("위도값" + a);
+                    System.out.println("경도값" + b);
                     mMap.addMarker(new MarkerOptions().position(myLocation).title("현재위치"));
                     mMap.moveCamera(CameraUpdateFactory.newLatLng(myLocation));
                     mMap.animateCamera(CameraUpdateFactory.zoomTo(17));

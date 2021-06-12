@@ -42,7 +42,7 @@ public class MainActivity_test extends AppCompatActivity {
         final String serviceKey = "duntrTnfNet3iwoXspPk3dQSisRgbZCIBlRV78lFspge9gcdrA2vLp19L6sC25lbEe9UaAXql58CURTHThlI1Q%3D%3D";
         try {
 
-            URL url = new URL("http://api.data.go.kr/openapi/tn_pubr_public_sttree_stret_api?serviceKey=duntrTnfNet3iwoXspPk3dQSisRgbZCIBlRV78lFspge9gcdrA2vLp19L6sC25lbEe9UaAXql58CURTHThlI1Q%3D%3D&pageNo=0&numOfRows=7693&type=xml");
+            URL url = new URL("http://api.data.go.kr/openapi/tn_pubr_public_sttree_stret_api?serviceKey=duntrTnfNet3iwoXspPk3dQSisRgbZCIBlRV78lFspge9gcdrA2vLp19L6sC25lbEe9UaAXql58CURTHThlI1Q%3D%3D&pageNo=0&numOfRows=1000&type=xml");
 
             XmlPullParserFactory parserFactory = XmlPullParserFactory.newInstance();
             XmlPullParser parser = parserFactory.newPullParser();
