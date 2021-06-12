@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(android.view.View v) {
                 Toast.makeText(MainActivity.this, "버튼 수정입니다.", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this , MainActivity_test.class);
+                startActivity(intent);
             }
         });
 

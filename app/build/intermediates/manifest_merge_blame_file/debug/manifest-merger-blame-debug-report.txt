@@ -44,7 +44,7 @@
 30    </queries>
 31
 32    <application
-32-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:13:5-45:19
+32-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:13:5-46:19
 33        android:allowBackup="true"
 33-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:14:9-35
 34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -54,78 +54,80 @@
 36-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:15:9-43
 37        android:label="@string/app_name"
 37-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:16:9-41
-38        android:roundIcon="@mipmap/ic_launcher_round"
-38-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:17:9-54
-39        android:supportsRtl="true"
-39-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:18:9-35
-40        android:testOnly="true"
-41        android:theme="@style/Theme.Weathertest" >
-41-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:19:9-49
-42
-43        <!--
-44             The API key for Google Maps-based APIs is defined as a string resource.
-45             (See the file "res/values/google_maps_api.xml").
-46             Note that the API key is linked to the encryption key used to sign the APK.
-47             You need a different API key for each encryption key, including the release key that is used to
-48             sign the APK for publishing.
-49             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-50        -->
-51        <meta-data
-51-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:29:9-31:71
-52            android:name="com.google.android.geo.API_KEY"
-52-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:30:13-58
-53            android:value="AIzaSyDJMLSoJ3pxpTulI1ZP3RsgXU4nKVEAVlo" />
-53-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:31:13-68
-54
-55        <activity
-55-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:33:9-35:68
-56            android:name="com.kr.weathertest.MapsActivity"
-56-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:34:13-41
-57            android:label="@string/title_activity_maps" />
-57-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:35:13-56
-58        <activity android:name="com.kr.weathertest.MainActivity_test" />
-58-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:36:9-55
-58-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:36:19-52
-59        <activity android:name="com.kr.weathertest.MainActivity2" />
-59-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:37:9-51
-59-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:37:19-48
-60        <activity android:name="com.kr.weathertest.MainActivity" >
-60-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:38:9-44:20
-60-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:38:19-47
-61            <intent-filter>
-61-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:39:13-43:29
-62                <action android:name="android.intent.action.MAIN" />
-62-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:40:17-69
-62-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:40:25-66
-63
-64                <category android:name="android.intent.category.LAUNCHER" />
-64-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:42:17-77
-64-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:42:27-74
-65            </intent-filter>
-66        </activity>
-67        <!-- Needs to be explicitly declared on P+ -->
-68        <uses-library
-68-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c544b370acc98d44be3bf19062e2e0f6\play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
-69            android:name="org.apache.http.legacy"
-69-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c544b370acc98d44be3bf19062e2e0f6\play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
-70            android:required="false" />
-70-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c544b370acc98d44be3bf19062e2e0f6\play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
-71
-72        <activity
-72-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c2d84af3d0555f20e3dd99631e217ebb\play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
-73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-73-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c2d84af3d0555f20e3dd99631e217ebb\play-services-base-17.5.0\AndroidManifest.xml:24:13-79
-74            android:exported="false"
-74-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c2d84af3d0555f20e3dd99631e217ebb\play-services-base-17.5.0\AndroidManifest.xml:25:13-37
-75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-75-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c2d84af3d0555f20e3dd99631e217ebb\play-services-base-17.5.0\AndroidManifest.xml:26:13-72
-76
-77        <meta-data
-77-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\dfe1840249491cac16d547804f1c912e\play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
-78            android:name="com.google.android.gms.version"
-78-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\dfe1840249491cac16d547804f1c912e\play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
-79            android:value="@integer/google_play_services_version" />
-79-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\dfe1840249491cac16d547804f1c912e\play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
-80    </application>
-81
-82</manifest>
+38        android:networkSecurityConfig="@xml/network_config"
+38-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:20:9-60
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:17:9-54
+40        android:supportsRtl="true"
+40-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:18:9-35
+41        android:testOnly="true"
+42        android:theme="@style/Theme.Weathertest" >
+42-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:19:9-49
+43
+44        <!--
+45             The API key for Google Maps-based APIs is defined as a string resource.
+46             (See the file "res/values/google_maps_api.xml").
+47             Note that the API key is linked to the encryption key used to sign the APK.
+48             You need a different API key for each encryption key, including the release key that is used to
+49             sign the APK for publishing.
+50             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+51        -->
+52        <meta-data
+52-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:30:9-32:71
+53            android:name="com.google.android.geo.API_KEY"
+53-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:31:13-58
+54            android:value="AIzaSyDJMLSoJ3pxpTulI1ZP3RsgXU4nKVEAVlo" />
+54-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:32:13-68
+55
+56        <activity
+56-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:34:9-36:68
+57            android:name="com.kr.weathertest.MapsActivity"
+57-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:35:13-41
+58            android:label="@string/title_activity_maps" />
+58-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:36:13-56
+59        <activity android:name="com.kr.weathertest.MainActivity_test" />
+59-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:37:9-55
+59-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:37:19-52
+60        <activity android:name="com.kr.weathertest.MainActivity2" />
+60-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:38:9-51
+60-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:38:19-48
+61        <activity android:name="com.kr.weathertest.MainActivity" >
+61-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:39:9-45:20
+61-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:39:19-47
+62            <intent-filter>
+62-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:40:13-44:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:41:17-69
+63-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:41:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:43:17-77
+65-->C:\Users\pkh23\Documents\GitHub\Project_WeatherApp\app\src\main\AndroidManifest.xml:43:27-74
+66            </intent-filter>
+67        </activity>
+68        <!-- Needs to be explicitly declared on P+ -->
+69        <uses-library
+69-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c544b370acc98d44be3bf19062e2e0f6\play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+70            android:name="org.apache.http.legacy"
+70-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c544b370acc98d44be3bf19062e2e0f6\play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+71            android:required="false" />
+71-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c544b370acc98d44be3bf19062e2e0f6\play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+72
+73        <activity
+73-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c2d84af3d0555f20e3dd99631e217ebb\play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+74-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c2d84af3d0555f20e3dd99631e217ebb\play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+75            android:exported="false"
+75-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c2d84af3d0555f20e3dd99631e217ebb\play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+76-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\c2d84af3d0555f20e3dd99631e217ebb\play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+77
+78        <meta-data
+78-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\dfe1840249491cac16d547804f1c912e\play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+79            android:name="com.google.android.gms.version"
+79-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\dfe1840249491cac16d547804f1c912e\play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+80            android:value="@integer/google_play_services_version" />
+80-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\pkh23\.gradle\caches\transforms-2\files-2.1\dfe1840249491cac16d547804f1c912e\play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+81    </application>
+82
+83</manifest>
