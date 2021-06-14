@@ -1905,6 +1905,7 @@ id blocking
 id bottom
 id bounce
 id btnSearch
+id btnSearch1
 id buttonPanel
 id cache_measures
 id cancel_action

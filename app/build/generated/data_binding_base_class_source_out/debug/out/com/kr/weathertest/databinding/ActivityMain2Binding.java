@@ -28,6 +28,9 @@ public final class ActivityMain2Binding implements ViewBinding {
   public final Button btnSearch;
 
   @NonNull
+  public final Button btnSearch1;
+
+  @NonNull
   public final TextView cityName;
 
   @NonNull
@@ -40,11 +43,12 @@ public final class ActivityMain2Binding implements ViewBinding {
   public final TextView weather;
 
   private ActivityMain2Binding(@NonNull LinearLayout rootView, @NonNull ListView DailyWeather,
-      @NonNull Button btnSearch, @NonNull TextView cityName, @NonNull EditText etCityName,
-      @NonNull TextView temp1, @NonNull TextView weather) {
+      @NonNull Button btnSearch, @NonNull Button btnSearch1, @NonNull TextView cityName,
+      @NonNull EditText etCityName, @NonNull TextView temp1, @NonNull TextView weather) {
     this.rootView = rootView;
     this.DailyWeather = DailyWeather;
     this.btnSearch = btnSearch;
+    this.btnSearch1 = btnSearch1;
     this.cityName = cityName;
     this.etCityName = etCityName;
     this.temp1 = temp1;
@@ -90,6 +94,12 @@ public final class ActivityMain2Binding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnSearch1;
+      Button btnSearch1 = rootView.findViewById(id);
+      if (btnSearch1 == null) {
+        break missingId;
+      }
+
       id = R.id.cityName;
       TextView cityName = rootView.findViewById(id);
       if (cityName == null) {
@@ -114,8 +124,8 @@ public final class ActivityMain2Binding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMain2Binding((LinearLayout) rootView, DailyWeather, btnSearch, cityName,
-          etCityName, temp1, weather);
+      return new ActivityMain2Binding((LinearLayout) rootView, DailyWeather, btnSearch, btnSearch1,
+          cityName, etCityName, temp1, weather);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
