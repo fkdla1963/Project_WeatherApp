@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\Ghazal\\Documents\\GitHub\\Project_WeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main2.xml",
-        "source": "C:\\Users\\Ghazal\\Documents\\GitHub\\Project_WeatherApp\\app\\src\\main\\res\\layout\\activity_main2.xml"
+        "merged": "C:\\Users\\ljw41\\Documents\\GitHub\\Project_WeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\ljw41\\Documents\\GitHub\\Project_WeatherApp\\app\\src\\main\\res\\layout\\activity_maps.xml"
     },
     {
-        "merged": "C:\\Users\\Ghazal\\Documents\\GitHub\\Project_WeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_test.xml",
-        "source": "C:\\Users\\Ghazal\\Documents\\GitHub\\Project_WeatherApp\\app\\src\\main\\res\\layout\\activity_main_test.xml"
+        "merged": "C:\\Users\\ljw41\\Documents\\GitHub\\Project_WeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_test.xml",
+        "source": "C:\\Users\\ljw41\\Documents\\GitHub\\Project_WeatherApp\\app\\src\\main\\res\\layout\\activity_main_test.xml"
     },
     {
-        "merged": "C:\\Users\\Ghazal\\Documents\\GitHub\\Project_WeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Ghazal\\Documents\\GitHub\\Project_WeatherApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\ljw41\\Documents\\GitHub\\Project_WeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ljw41\\Documents\\GitHub\\Project_WeatherApp\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Ghazal\\Documents\\GitHub\\Project_WeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_weather.xml",
-        "source": "C:\\Users\\Ghazal\\Documents\\GitHub\\Project_WeatherApp\\app\\src\\main\\res\\layout\\item_weather.xml"
+        "merged": "C:\\Users\\ljw41\\Documents\\GitHub\\Project_WeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_weather.xml",
+        "source": "C:\\Users\\ljw41\\Documents\\GitHub\\Project_WeatherApp\\app\\src\\main\\res\\layout\\item_weather.xml"
     },
     {
-        "merged": "C:\\Users\\Ghazal\\Documents\\GitHub\\Project_WeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_maps.xml",
-        "source": "C:\\Users\\Ghazal\\Documents\\GitHub\\Project_WeatherApp\\app\\src\\main\\res\\layout\\activity_maps.xml"
+        "merged": "C:\\Users\\ljw41\\Documents\\GitHub\\Project_WeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main2.xml",
+        "source": "C:\\Users\\ljw41\\Documents\\GitHub\\Project_WeatherApp\\app\\src\\main\\res\\layout\\activity_main2.xml"
     }
 ]
