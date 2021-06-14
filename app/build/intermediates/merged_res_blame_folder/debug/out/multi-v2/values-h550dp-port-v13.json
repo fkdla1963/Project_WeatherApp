@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\pkh23\\Documents\\GitHub\\Project_WeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+            "outputFile": "C:\\Users\\Ghazal\\Documents\\GitHub\\Project_WeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\pkh23\\.gradle\\caches\\transforms-2\\files-2.1\\32cca2621407ecd73ffb6f06f83b3f96\\material-1.4.0-rc01\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "source": "C:\\Users\\Ghazal\\.gradle\\caches\\transforms-2\\files-2.1\\32cca2621407ecd73ffb6f06f83b3f96\\material-1.4.0-rc01\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
