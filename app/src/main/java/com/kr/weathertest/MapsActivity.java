@@ -57,8 +57,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
      */
     @Override
     public void onMapReady(GoogleMap googleMap) {//처음 위치
+       double a = getIntent().getDoubleExtra("위도" , 1);
+
+        Log.i("위도" , String.valueOf(a));
+
+       double b = getIntent().getDoubleExtra("경도" , 1);
+
+        Log.i("경도" , String.valueOf(b));
+
         mMap = googleMap;
-        LatLng location = new LatLng(36.800241188884456, 127.07491705778364);//선문대학교 위치표시
+        LatLng location = new LatLng(a, b);//선문대학교 위치표시
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.title("선문대학교");//주 이름
         markerOptions.snippet("대학교임");//부제

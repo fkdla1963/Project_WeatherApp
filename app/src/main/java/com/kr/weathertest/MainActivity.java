@@ -63,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(android.view.View v) {
                 Intent intent = new Intent(MainActivity.this , MapsActivity.class);
+                intent.putExtra("위도" , latitude);
+                intent.putExtra("경도" , longitude);
                 startActivity(intent);
             }
         });
