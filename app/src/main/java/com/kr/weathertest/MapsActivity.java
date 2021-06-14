@@ -175,6 +175,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             Double lat = Double.parseDouble(DataList.apilist.get(i).e_lat);
             Double lon = Double.parseDouble(DataList.apilist.get(i).e_lon);
             LatLng loc = new LatLng(lat, lon);
+            markerOptions.title(DataList.apilist.get(i).name);
             markerOptions.position(loc);
             mMap.addMarker(markerOptions);
             i++;
