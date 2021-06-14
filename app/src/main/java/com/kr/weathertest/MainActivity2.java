@@ -1,6 +1,5 @@
 package com.kr.weathertest;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -26,7 +25,7 @@ public class MainActivity2 extends AppCompatActivity {
     EditText etCityName;
     TextView city , temp , weather;
     ListView listView;
-    double a , b;
+
 
     final String key = "e62e6a9e08b2d9e9924fe1b6c229eb0b";  //api키
 
@@ -39,15 +38,6 @@ public class MainActivity2 extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
-        a = getIntent().getDoubleExtra("위도" , 1);
-
-        Log.i("위도" , String.valueOf(a));
-
-        b = getIntent().getDoubleExtra("경도" , 1);
-
-        Log.i("경도" , String.valueOf(b));
-
-        Button btbSearch1 = findViewById(R.id.btnSearch1);
         btbSearch = findViewById(R.id.btnSearch);   //서치 버튼
         etCityName = findViewById(R.id.etCityName); //에딧 텍스트
         city = findViewById(R.id.cityName);         //도시이름
@@ -55,15 +45,6 @@ public class MainActivity2 extends AppCompatActivity {
         weather = findViewById(R.id.weather);       //날씨
         listView = findViewById(R.id.DailyWeather); //리스트뷰
 
-        double lon = b;
-        double lat = a;
-        loadDailyForecast(lon , lat);
-        btbSearch1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
 
         btbSearch.setOnClickListener(new View.OnClickListener() {
             @Override
