@@ -77,12 +77,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        temp = findViewById(R.id.temp);
-        temp_min = findViewById(R.id.temp_min);
-        temp_max = findViewById(R.id.temp_max);
-        status = findViewById(R.id.status);
-        address = findViewById(R.id.address);
-
+       
     }
     //최상단 현재 날씨 정보
 
