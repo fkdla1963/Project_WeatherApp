@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        temp = findViewById(R.id.temp);
+
         if (checkLocationServicesStatus()) {
             checkRunTimePermission();
         } else {
@@ -55,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
         btn = findViewById(R.id.Button1);
         btn2 = findViewById(R.id.Button2);
-
+        loadWeatherByCityName(latitude , longitude);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(android.view.View v) {
@@ -81,44 +83,93 @@ public class MainActivity extends AppCompatActivity {
     }
     //최상단 현재 날씨 정보
 
-        private void loadWeatherByCityName(double lat, double lon){
-            Ion.with(this)
-                    .load("https://api.openweathermap.org/data/2.5/onecall?lat=" + lat +
-                            "&lon=" + lon + "&exclude=hourly,minutely&units=metric&lang=kr&appid=" + key)   //api주소
-                    .asJsonObject()
-                    .setCallback(new FutureCallback<JsonObject>() {
-                        @Override
-                        public void onCompleted(Exception e, JsonObject result) {
-                            Log.d("rrr", result.toString());
-                            if (e != null) {
-                                e.printStackTrace();
-                                Toast.makeText(MainActivity.this, "server error", Toast.LENGTH_SHORT).show();
-                            } else {
+//        private void loadWeatherByCityName(double lat, double lon){
+//            Ion.with(this)
+//                    .load("https://api.openweathermap.org/data/2.5/onecall?lat=" + lat +
+//                            "&lon=" + lon + "&exclude=hourly,minutely&units=metric&lang=kr&appid=" + key)   //api주소
+//                    .asJsonObject()
+//                    .setCallback(new FutureCallback<JsonObject>() {
+//                        @Override
+//                        public void onCompleted(Exception e, JsonObject result) {
+//                            Log.d("rrr", result.toString());
+//                            if (e != null) {
+//                                e.printStackTrace();
+//                                Toast.makeText(MainActivity.this, "server error", Toast.LENGTH_SHORT).show();
+//                            } else {
+//
+//                                JsonObject current = result.get("current").getAsJsonObject(); //메인
+//                                double temp1 = current.get("temp").getAsDouble();          //메인 안에 온도
+//                                temp.setText(temp1 + "C");
+//                                /*
+//                                double temp2 = result.get("timezone").getAsDouble(); ????
+//                                address.setText();??????
+//                                */
+//                                JsonObject daily = result.get("daily").getAsJsonObject();
+//                                double temp3 = daily.get("min").getAsDouble(); //temp_min = 최저온도
+//                                temp_min.setText((int) temp3);
+//
+//                                double temp4 = daily.get("max").getAsDouble(); //temp_max = 최고온도
+//                                temp_max.setText((int) temp4);
+//
+//                                JsonObject weather = result.get("weather").getAsJsonObject();
+//                                double temp5 = weather.get("main").getAsDouble(); //main = 날씨 매개 변수 그룹(비 , 눈 , 맑음 , 번개등)
+//                                status.setText((int) temp5);
+//
+//
+//
+//                            }
+//                        }
+//                    });
+//        }
 
-                                JsonObject current = result.get("current").getAsJsonObject(); //메인
-                                double temp1 = current.get("temp").getAsDouble();          //메인 안에 온도
-                                temp.setText(temp1 + "C");
-                                /*
-                                double temp2 = result.get("timezone").getAsDouble(); ????
-                                address.setText();??????
-                                */
-                                JsonObject daily = result.get("daily").getAsJsonObject();
-                                double temp3 = daily.get("min").getAsDouble(); //temp_min = 최저온도
-                                temp_min.setText((int) temp3);
 
-                                double temp4 = daily.get("max").getAsDouble(); //temp_max = 최고온도
-                                temp_max.setText((int) temp4);
-
-                                JsonObject weather = result.get("weather").getAsJsonObject();
-                                double temp5 = weather.get("main").getAsDouble(); //main = 날씨 매개 변수 그룹(비 , 눈 , 맑음 , 번개등)
-                                status.setText((int) temp5);
+    private void loadWeatherByCityName(double lat , double lon){
+        Ion.with(this)
+                .load("https://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&units=metric&lang=kr&appid="+key)   //api주소
+                .asJsonObject()
+                .setCallback(new FutureCallback<JsonObject>() {
+                    @Override
+                    public void onCompleted(Exception e, JsonObject result) {
+                        Log.d("result" , result.toString());
+                        if(e != null){
+                            e.printStackTrace();
+                            Toast.makeText(MainActivity.this, "server error", Toast.LENGTH_SHORT).show();
+                        }else{
 
 
+                            JsonObject main = result.get("main").getAsJsonObject(); //메인
+                            double temp1 = main.get("temp").getAsDouble();          //메인 안에 온도
+                            temp.setText(temp1+"C");
 
-                            }
+                    /*
+                    main 안에 있는 정보들
+                    feels_like = 체감온도
+                    temp_min = 최저온도
+                    temp_max = 최고온도
+                    humidity = 습기
+
+                    weather 안의 정보
+                    main = 날씨 매개 변수 그룹(비 , 눈 , 맑음 , 번개등)
+
+                    wind안에 정보
+                    speed = 풍속
+
+                    cloud 안에 정보
+                    all = 흐림 %
+
+                    rain 안의 정보
+                    1h = 지난 1시간동안의 강수량
+                    3h = 지난 3시간동안의 강수량
+                     */
+
+
                         }
-                    });
-        }
+                    }
+                });
+    }
+
+
+
 
 
     @Override
