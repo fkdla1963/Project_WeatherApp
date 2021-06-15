@@ -11,29 +11,35 @@
         android:layout_gravity="center"
         android:orientation="horizontal" >
 
-    <EditText
-        android:layout_width="270dp"
+    <TextView
+        android:layout_width="200dp"
         android:layout_height="85dp"
         android:layout_gravity="center"
+        android:text="도시 이름"
+        android:gravity="center"
+        android:textSize="15pt"
         android:id="@+id/etCityName">
-    </EditText>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="검색"
-        android:textSize="5dp"
-        android:id="@+id/btnSearch" >
-    </Button>
+    </TextView>
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:text="검색"
-            android:textSize="5dp"
-            android:id="@+id/btnSearch1" >
-        </Button>
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="↻"
+            android:textSize="18pt"
+            android:id="@+id/refreshbtn" >
 
+        </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:text="검색"
+        android:textSize="11pt"
+        android:id="@+id/btnSearch" >
+    </Button>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -61,6 +67,16 @@
             android:text="날씨"
             android:textSize="18pt">
         </TextView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weatherresult"
+            android:text="날씨 상세 정보"
+            android:textSize="18pt"
+            android:layout_gravity="center"
+            android:gravity="center" >
+        </Button>
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
