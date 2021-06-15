@@ -10,6 +10,8 @@ import android.Manifest;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.location.Address;
+import android.location.Geocoder;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.util.Log;
@@ -18,15 +20,23 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.ion.Ion;
+
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
     private Object View;
     Button btn , btn2;
-    TextView city , temp , weather , temp_max, temp_min, status, address;
+    TextView city , temp , weather , temp_max, temp_min, status, address1, time;
     final String key = "e62e6a9e08b2d9e9924fe1b6c229eb0b";  //api키
 
     GpsTracker gpsTracker;
@@ -42,6 +52,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         temp = findViewById(R.id.temp);
+        temp_min = findViewById(R.id.temp_min);
+        temp_max = findViewById(R.id.temp_max);
+        status = findViewById(R.id.status);
+        time = findViewById(R.id.updated_at);
+        address1 = findViewById(R.id.address);
+
+        Geocoder geocoder;
+        List<Address> addresses = null;
+        geocoder = new Geocoder(this,Locale.getDefault());
+
 
         if (checkLocationServicesStatus()) {
             checkRunTimePermission();
@@ -58,6 +78,17 @@ public class MainActivity extends AppCompatActivity {
         btn = findViewById(R.id.Button1);
         btn2 = findViewById(R.id.Button2);
         loadWeatherByCityName(latitude , longitude);
+        try {
+            addresses = geocoder.getFromLocation(latitude, longitude, 1); // Here 1 represent max location result to returned, by documents it recommended 1 to 5
+        } catch (IOException ioException) {
+            ioException.printStackTrace();
+        }
+
+       // String address = addresses.get(0).getAddressLine(0); // If any additional address line present than only, check with max available address lines by getMaxAddressLineIndex()
+        String city = addresses.get(0).getLocality();
+       // String state = addresses.get(0).getAdminArea();
+        address1.setText(city);
+
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(android.view.View v) {
@@ -78,6 +109,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
 
        
     }
@@ -136,10 +169,39 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(MainActivity.this, "server error", Toast.LENGTH_SHORT).show();
                         }else{
 
+                            Calendar calendar;
+                            SimpleDateFormat dateFormat;
+                            String date;
 
                             JsonObject main = result.get("main").getAsJsonObject(); //메인
                             double temp1 = main.get("temp").getAsDouble();          //메인 안에 온도
                             temp.setText(temp1+"C");
+
+
+                            double temp3 = main.get("temp_min").getAsDouble(); //temp_min = 최저온도
+                            temp_min.setText(temp3+"C");
+
+                            double temp4 = main.get("temp_max").getAsDouble(); //temp_max = 최고온도
+                            temp_max.setText(temp4+"C");
+
+                            //Weather Status
+                            JsonArray weather1 = result.get("weather").getAsJsonArray(); //메인
+                            String temp5 = weather1.get(0).getAsJsonObject().get("description").getAsString();          //메인 안에 온도
+                            status.setText(temp5);
+
+
+
+                            //Current Time
+                            calendar = Calendar.getInstance();
+                            dateFormat = new SimpleDateFormat("h:mm a");
+                            date = dateFormat.format(calendar.getTime());
+                            time.setText(date);
+
+
+
+
+
+
 
                     /*
                     main 안에 있는 정보들
