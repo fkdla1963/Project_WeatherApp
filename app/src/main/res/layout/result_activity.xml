@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:text="날씨 상세 정보"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="25pt"
+            >
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/likeweathertv"
+            android:text="체감 온도"
+            android:textSize="14pt">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mintemp"
+            android:text="최저 온도"
+            android:textSize="14pt">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/maxtemp"
+            android:text="최고 온도"
+            android:textSize="14pt">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/humdata"
+            android:text="습도"
+            android:textSize="14pt">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weathermain"
+            android:text="날씨 정보"
+            android:textSize="14pt"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resultwind"
+            android:text="풍속"
+            android:textSize="14pt"
+            android:layout_marginBottom="15dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cloudinfo"
+            android:text="흐림 정보"
+            android:textSize="14pt"
+            android:layout_marginBottom="15dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/onehourrain"
+            android:text="1시간동안 강수량"
+            android:textSize="14pt">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/thrhourrain"
+            android:text="3시간동안 강수량"
+            android:textSize="14pt">
+        </TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
