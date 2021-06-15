@@ -4,8 +4,6 @@ package com.kr.weathertest.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -25,34 +23,34 @@ public final class ActivityMain2Binding implements ViewBinding {
   public final ListView DailyWeather;
 
   @NonNull
-  public final Button btnSearch;
+  public final TextView humidity;
 
   @NonNull
-  public final Button btnSearch1;
+  public final TextView likeweathertv;
 
   @NonNull
-  public final TextView cityName;
+  public final TextView maxtemp;
 
   @NonNull
-  public final EditText etCityName;
+  public final TextView mintemp;
 
   @NonNull
-  public final TextView temp1;
+  public final TextView weather11;
 
   @NonNull
-  public final TextView weather;
+  public final TextView wind;
 
   private ActivityMain2Binding(@NonNull LinearLayout rootView, @NonNull ListView DailyWeather,
-      @NonNull Button btnSearch, @NonNull Button btnSearch1, @NonNull TextView cityName,
-      @NonNull EditText etCityName, @NonNull TextView temp1, @NonNull TextView weather) {
+      @NonNull TextView humidity, @NonNull TextView likeweathertv, @NonNull TextView maxtemp,
+      @NonNull TextView mintemp, @NonNull TextView weather11, @NonNull TextView wind) {
     this.rootView = rootView;
     this.DailyWeather = DailyWeather;
-    this.btnSearch = btnSearch;
-    this.btnSearch1 = btnSearch1;
-    this.cityName = cityName;
-    this.etCityName = etCityName;
-    this.temp1 = temp1;
-    this.weather = weather;
+    this.humidity = humidity;
+    this.likeweathertv = likeweathertv;
+    this.maxtemp = maxtemp;
+    this.mintemp = mintemp;
+    this.weather11 = weather11;
+    this.wind = wind;
   }
 
   @Override
@@ -88,44 +86,44 @@ public final class ActivityMain2Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.btnSearch;
-      Button btnSearch = rootView.findViewById(id);
-      if (btnSearch == null) {
+      id = R.id.humidity;
+      TextView humidity = rootView.findViewById(id);
+      if (humidity == null) {
         break missingId;
       }
 
-      id = R.id.btnSearch1;
-      Button btnSearch1 = rootView.findViewById(id);
-      if (btnSearch1 == null) {
+      id = R.id.likeweathertv;
+      TextView likeweathertv = rootView.findViewById(id);
+      if (likeweathertv == null) {
         break missingId;
       }
 
-      id = R.id.cityName;
-      TextView cityName = rootView.findViewById(id);
-      if (cityName == null) {
+      id = R.id.maxtemp;
+      TextView maxtemp = rootView.findViewById(id);
+      if (maxtemp == null) {
         break missingId;
       }
 
-      id = R.id.etCityName;
-      EditText etCityName = rootView.findViewById(id);
-      if (etCityName == null) {
+      id = R.id.mintemp;
+      TextView mintemp = rootView.findViewById(id);
+      if (mintemp == null) {
         break missingId;
       }
 
-      id = R.id.temp1;
-      TextView temp1 = rootView.findViewById(id);
-      if (temp1 == null) {
+      id = R.id.weather11;
+      TextView weather11 = rootView.findViewById(id);
+      if (weather11 == null) {
         break missingId;
       }
 
-      id = R.id.weather;
-      TextView weather = rootView.findViewById(id);
-      if (weather == null) {
+      id = R.id.wind;
+      TextView wind = rootView.findViewById(id);
+      if (wind == null) {
         break missingId;
       }
 
-      return new ActivityMain2Binding((LinearLayout) rootView, DailyWeather, btnSearch, btnSearch1,
-          cityName, etCityName, temp1, weather);
+      return new ActivityMain2Binding((LinearLayout) rootView, DailyWeather, humidity,
+          likeweathertv, maxtemp, mintemp, weather11, wind);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

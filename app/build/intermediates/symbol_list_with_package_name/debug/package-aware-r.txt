@@ -1904,8 +1904,6 @@ id beginning
 id blocking
 id bottom
 id bounce
-id btnSearch
-id btnSearch1
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1924,11 +1922,11 @@ id chip3
 id chip_group
 id chronometer
 id circle_center
-id cityName
 id clear_text
 id clip_horizontal
 id clip_vertical
 id clockwise
+id cloudinfo
 id collapseActionView
 id confirm_button
 id container
@@ -1979,7 +1977,6 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
-id etCityName
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2008,6 +2005,8 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
+id humdata
+id humidity
 id hybrid
 id icon
 id icon_group
@@ -2029,6 +2028,7 @@ id layout
 id left
 id leftToRight
 id light
+id likeweathertv
 id line1
 id line3
 id linear
@@ -2056,10 +2056,12 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id maxtemp
 id media_actions
 id message
 id middle
 id mini
+id mintemp
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -2105,6 +2107,7 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id onehourrain
 id outline
 id outward
 id overviewContainer
@@ -2128,6 +2131,7 @@ id radio
 id ratio
 id rectangles
 id result
+id resultwind
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2208,7 +2212,6 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
 id temp
-id temp1
 id temp_max
 id temp_min
 id terrain
@@ -2232,6 +2235,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id thrhourrain
 id time
 id title
 id titleDividerNoCustom
@@ -2262,8 +2266,10 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
-id weather
+id weather11
+id weathermain
 id wide
+id wind
 id withText
 id withinBounds
 id wrap
@@ -2416,6 +2422,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout result_activity
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
